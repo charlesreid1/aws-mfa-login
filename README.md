@@ -1,4 +1,7 @@
 # aws-mfa-login
+
+**FORKED VERSION OF <https://github.com/wrapp/aws-mfa-login>**
+
 Command-line tool for MFA authentication against the AWS CLI. Only generates environment variables, no state or configuration (MFA serial can optionally be added to AWS config).
 
 Will by default ask for MFA token, and grab MFA device serial from the default profile in `~/.aws/config`.
@@ -30,5 +33,5 @@ export AWS_SECRET_ACCESS_KEY=abWbgMq5432lLIn6x34tj+Wlpykq1WR/KvbG2SXg
 export AWS_SESSION_TOKEN=FQodyXlDvLv//////////wEaDCDCm3ZyUN0wDhSDKd3klfssZo4zNgTqnmUiVH0Hp8EUwtdKwvbiAa7JsyXVfzP2vaM0MTZmur/SDFDSf33/77WSdNtpUnaMyEnNP//XA7OVzmzlMLAXKYAbzrq3tBVuXxspEccz+qrxMZkfXD+DfLfkgbKF384kSDksKDF+85kZZTTr6t4t7v1tZ9DNV3xEehNJk8BS5yrD6vKusGRir+ZVm3SDFddfdsDFFD
 ```
 # Install
-    pip install --user git+https://github.com/wrapp/aws-mfa-login.git
+    pip install git+https://github.com/charlesreid1/aws-mfa-login.git
 
