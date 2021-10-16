@@ -44,7 +44,7 @@ def get_credentials(args: argparse.Namespace) -> dict:
         config = configparser.ConfigParser()
         config.read(expanduser("~/.aws/config"))
         try:
-            profile = config[args.profile]
+            profile = config["profile " + args.profile]
         except KeyError:
             print("# Profile '%s' not found!" % args.profile, file=sys.stderr)
             sys.exit(-1)
