@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="aws-mfa-login",
-    version="1.0.1",
+    version="1.0.2",
     packages=['wrapp', 'wrapp.aws'],
     author="Joakim Lundborg, Fredrik Håård",
     author_email="joakim.lundborg@wrapp.com, fredrik@metallapan.se",
